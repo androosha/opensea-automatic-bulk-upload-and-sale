@@ -1,0 +1,64 @@
+{
+     "nft": [
+       {
+         "nft_url": "https://testnets.opensea.io/assets/mumbai/0xea777b757f4b0b599be58af3668cd6af23e9a7fa/1",
+         "supply": 1,
+         "blockchain": "Polygon Mumbai Testnet",
+         "sale_type": "",
+         "price": 0.005,
+         "method": "",
+         "duration": "6 months",
+         "specific_buyer": false,
+         "quantity": 1
+       },
+
+       {
+         "nft_url": "https://testnets.opensea.io/assets/mumbai/0xea777b757f4b0b599be58af3668cd6af23e9a7fa/2",
+         "supply": 1,
+         "blockchain": "Testnet",
+         "sale_type": "",
+         "price": 0.005,
+         "method": "",
+         "duration": "6 months",
+         "specific_buyer": false,
+         "quantity": 1
+       },
+
+       {
+         "nft_url": "https://testnets.opensea.io/assets/mumbai/0xea777b757f4b0b599be58af3668cd6af23e9a7fa/3",
+         "supply": 1,
+         "blockchain": "Mumbai Testnet",
+         "sale_type": "",
+         "price": 0.005,
+         "method": "",
+         "duration": "6 months",
+         "specific_buyer": false,
+         "quantity": 1
+       },
+
+       {
+         "nft_url": "https://testnets.opensea.io/assets/mumbai/0xea777b757f4b0b599be58af3668cd6af23e9a7fa/4",
+         "supply": 1,
+         "blockchain": "Mumbai Testnet",
+         "sale_type": "",
+         "price": 0.005,
+         "method": "",
+         "duration": "6 months",
+         "specific_buyer": false,
+         "quantity": 1
+       },
+
+       {
+         "nft_url": "https://testnets.opensea.io/assets/mumbai/0xea777b757f4b0b599be58af3668cd6af23e9a7fa/5",
+         "supply": 1,
+         "blockchain": "Mumbai Testnet",
+         "sale_type": "",
+         "price": 0.005,
+         "method": "",
+         "duration": "6 months",
+         "specific_buyer": false,
+         "quantity": 1
+       }
+
+     ]
+}

@@ -1035,7 +1035,7 @@ if __name__ == '__main__':
           f'\n\nVersion 1.6.14 - 2022, 18 April.\n{reset}'
           '\nIf you face any problem, please open an issue.')
 
-    input('\nPRESS [ENTER] TO CONTINUE. ')
+    # input('\nPRESS [ENTER] TO CONTINUE. ')
     cls()  # Clear console.
 
     print(f'{green}Created by Maxime Dréan.'
@@ -1044,16 +1044,16 @@ if __name__ == '__main__':
           f' prohibited.{reset}\n\nExtension tools available here: '
           'https://maximedrn.gumroad.com/')
 
-    user_wallet = choose_wallet()
+    user_wallet = 'MetaMask' #choose_wallet()
     wallet = Wallets(user_wallet, read_file(  # Send credentials.
         'password', '\nWhat is your MetaMask password? '), read_file(
         'recovery_phrase', '\nWhat is your MetaMask recovery phrase? '),
         read_file('private_key', '\nWhat is you account private key? '
                   '(Press [ENTER] to ignore this step) '))
-    action = perform_action()  # What the user wants to do.
+    action = [2] #perform_action()  # What the user wants to do.
     solver, key = recaptcha_solver() if 1 in action else ('', '')
-    browser = 0 if user_wallet == 'Coinbase Wallet' else choose_browser()
-    reader = Reader(data_file())  # Ask for a file and read it.
+    browser = 0 #if user_wallet == 'Coinbase Wallet' else choose_browser()
+    reader = Reader('data/json_sale_mumbai.json') #Reader(data_file())  # Ask for a file and read it.
     structure = Structure(action)  # Structure the file.
     cls()  # Clear console.
 
